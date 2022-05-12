@@ -7,7 +7,7 @@
 import time
 
 t0 = int(round(time.time() * 1000))
-for i in range(50000):
+for i in range(500000):
     print("Hello, world")
 
 t1 = int(round(time.time() * 1000))
